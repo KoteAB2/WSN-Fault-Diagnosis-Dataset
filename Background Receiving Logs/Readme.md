@@ -1,6 +1,6 @@
-##Frame Structrue
+## Frame Structrue
 **![image1](../images/frame_structure.png)**
-##VD background log alert
+## VD background log alert
 
 The AP continuously generates 0x22 battery failure alarms, and all four VDs generate 0x22 rtC alarms:
 
@@ -16,7 +16,7 @@ DC_01CA16110025 had 7 alarms on November 17th and 2 alarms before 8:30 on the 18
 
 DC_01CA16110028 had 2 alarms on November 17th, and 2 alarms before 8:30 on the 18th.
 
-##VD 0x22 alarm log
+## VD 0x22 alarm log
 
 **![image1](../images/image1.png)**
 
@@ -81,6 +81,7 @@ When the VD/RP/AP node detects faults, such as sensor faults, memory faults, etc
 | --- | --- | --- | --- | --- | --- |
 | op | 1 | unit8 | 1 | oxA2                          | Command word |
 | tstamp | 6 | BCD | 6 | 0x16 0x01 0x02 0x03 0x04 0x05 | Timestamp,  should be the same as the field with the same name in the command/request |
+
 
 
 
