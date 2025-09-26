@@ -16,13 +16,13 @@ DC_01CA16110028 had 2 alarms on November 17th, and 2 alarms before 8:30 on the 1
 
 **VD 0x22 alarm log**
 
-**![image1](./images/image1.png)**
+**![image1](../images/image1.png)**
 
-![image2](./images/image2.png)
+![image2](../images/image2.png)
 
 **AP 0x22 alarm log**
 
-![image3](./images/image3.png)
+![image3](../images/image3.png)
 
 ## Parking space detector heartbeat--0x02
 
@@ -79,5 +79,6 @@ When the VD/RP/AP node detects faults, such as sensor faults, memory faults, etc
 | --- | --- | --- | --- | --- | --- |
 | op | 1 | unit8 | 1 | oxA2                          | Command word |
 | tstamp | 6 | BCD | 6 | 0x16 0x01 0x02 0x03 0x04 0x05 | Timestamp,  should be the same as the field with the same name in the command/request |
+
 
 
